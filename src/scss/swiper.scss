@@ -1,0 +1,109 @@
+.swiper {
+}
+.swiper-wrapper {
+}
+
+.swiper-slide {
+    width: 360px;
+} 
+
+.trainers_mudo {
+    max-width: 1920px;
+    padding-left: 380px;
+    padding-top: 60px;
+
+    @media (max-width: 1440px) {
+        padding-left: 250px;
+      }
+    @media (max-width: 1280px) {
+        padding-left: 70px;
+      }  
+}    
+
+.trainers_content {
+    margin: 0;
+} 
+
+.trainers_item {
+    width: 360px;
+}
+
+.trainers_name {
+        margin: 0px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 160%;
+        color: #141024;
+        padding: 20px 0 10px 0px;
+
+}
+
+.trainers_post {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(20, 16, 36, 0.7);
+}
+
+.trainers_nav {
+       display: flex;
+       padding-top: 75px;
+       align-items: center;
+       justify-content: space-between;
+    
+}
+
+.btn_reset {
+    padding-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: #D52027;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+       color: #be4141;
+       text-decoration: underline;
+    }
+}
+.swiper-scrollbar.trainers_scroll {
+    position: inherit;
+    border-color: rgba(245, 243, 253, 0);
+    border-radius: 40px;
+    width: 360px;
+    height: 5px;
+}
+
+.swiper-scrollbar-drag {
+    width: 260px;
+    height: 5px;
+    background: #241610;
+}
+
+.trainers_btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    .trainers_slider-btn--prev {
+        width: 33.33px;
+        height: 33.33px;
+        margin-right: 16.5px;
+        background-color: white;
+        background-image: url("../img/svg/prev.png");
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        
+    }
+    .trainers_slider-btn--next {
+        width: 33.33px;
+        height: 33.33px;
+        margin-right: 383px;
+        background-color: white;
+        background-image: url("../img/svg/next.png");
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+    }
+}

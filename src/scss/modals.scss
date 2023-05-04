@@ -1,0 +1,69 @@
+  .button a {
+    padding-top: 20px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #D52027;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+       color: #be4141;
+       text-decoration: underline;
+    }
+  }
+  
+ 
+  
+  .pop_up {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(5, 5, 5, .8 );
+    z-index: 2;
+  }
+  
+  .pop_up.active {
+    display: block;
+  }
+  
+  .pop_up_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .pop_up_body {
+    margin: auto;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+  }
+  
+  .pop_up_body button {
+    cursor: pointer;
+    display: block;
+    width: 330px;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(255, 51, 0);
+  
+  }
+  
+  .pop_up_close {
+   position: absolute;
+   right: 20px;
+   top: 20px;
+   font-size: 20px;
+   cursor: pointer;
+  }

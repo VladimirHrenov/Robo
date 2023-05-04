@@ -1,0 +1,42 @@
+$fontFamily:"Heebo";
+$minWidth: 320px;
+$maxWidth: 1152px;
+$maxWidthConteiner: 856px;
+$md1: $maxWidthConteiner + 12px;
+$md2: 991.98px;
+$md3: 767.98px;
+$md4: 479.98px;
+
+
+
+.blog {
+    &_title {
+      
+    }
+    &_article-name {
+       
+    }
+    &_items {
+
+    }
+    &_item {
+       
+    }
+    &_info{
+      
+
+    }
+    &_date {
+
+    }
+
+    &_separator {
+    
+    }
+    &_category {
+    
+    }
+    &_text {
+
+    }
+}
